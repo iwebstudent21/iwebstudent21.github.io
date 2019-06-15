@@ -6,12 +6,12 @@ body {
     align-content: center;
     text-align: center;
     min-height: 100vh;
-   
+    background-image: radial-gradient( purple, violet, red, orange, yellow);
 }
 
-gradi {
-    background-color: radial-gradient(to right, purple, violet, red, orange, yellow);
-}
+
+
+
 
 
 h1{
