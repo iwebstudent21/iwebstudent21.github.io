@@ -6,12 +6,11 @@ body {
     align-content: center;
     text-align: center;
     min-height: 100vh;
-    #grad1 {
-        background-color: linear-gradient(to right, purple, violet, red, orange, yellow);
-    }
+   
 }
 
-
+#grad1 {
+    background-color: linear-gradient(to right, purple, violet, red, orange, yellow);
 }
 
 
