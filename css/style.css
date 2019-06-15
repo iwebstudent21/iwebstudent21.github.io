@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: radial-gradient( purple, violet, red, orange, yellow);
+}
+
+
+
+
+
+
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+}
