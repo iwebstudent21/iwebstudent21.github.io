@@ -7,6 +7,9 @@ body {
     align-content: center;
     text-align: center;
     min-height: 100vh;
+    #grad {
+        background-image: linear-gradient(to right, purple, violet,red, orange, yellow)
+    }
 }
 
 h1{
@@ -27,8 +30,4 @@ ul {
 
 li {
     text-align: left;
-}
-
-#grad {
-    background-image: linear-gradient(to right, purple, violet,red, orange, yellow)
 }
