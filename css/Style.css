@@ -9,8 +9,8 @@ body {
    
 }
 
-#grad1 {
-    background-color: linear-gradient(to right, purple, violet, red, orange, yellow);
+gradi {
+    background-color: radial-gradient(to right, purple, violet, red, orange, yellow);
 }
 
 
