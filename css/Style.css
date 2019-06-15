@@ -10,7 +10,7 @@ body {
   
 }
 
-#grad {
+linearGradient {
     background-image: linear-gradient(to right, purple, violet,red, orange, yellow)
 }
 
