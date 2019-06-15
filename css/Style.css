@@ -28,3 +28,7 @@ ul {
 li {
     text-align: left;
 }
+
+#grad {
+    background-image: linear-gradient(to right, purple, violet,red, orange, yellow)
+}
