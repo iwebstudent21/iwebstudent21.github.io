@@ -2,37 +2,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Summer Site 2019</title>
-    <meta name="description" content="This is my Summer 2019 website" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="My Personal Web Site" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <header>
-        <h1><a href="index.html">CO</a></h1>
+        <div class="site-id">
+            <h1><a href="index.html">JD</a></h1>
+        </div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section class="hero">
             <h2>Summer 2019</h2>
-            <p>I created this site as part of my summer class at Iolani. Within it, you will find lists of my summer
-                favorites along with resources from a web design class.</p>
-
+            <p>I created this site as part of my summer project at Iolani. Within it, you will find lists of my summer
+                favorites along with resources from my summer web design class.</p>
+        </section>
+        <section class="lists">
+            <div class="category">
+                <h3>Movies</h3>
+                <p>Favorite movies of 2019</p>
+                <ul>
+                    <li>Captain Marvel</li>
+                    <li>John Wick 3</li>
+                    <li>Shazam!</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Sports</h3>
+                <p>Favorite sports to watch in 2019</p>
+                <ul>
+                    <li>Baseball</li>
+                    <li>Basketball</li>
+                    <li>Football</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Apps/Games</h3>
+                <p>Favorite apps/games of 2019</p>
+                <ul>
+                    <li>Youtube</li>
+                    <li>Safari</li>
+                    <li>Battle cats</li>
+                </ul>
+            </div>
         </section>
     </main>
-    <section>
-        <h3>Favorite movies of 2019</h3>
-        <ul>
-            <li>Captian Marvel</li>
-            <li>John Wick 3</li>
-            <li>Shazam!</li>
-        </ul>
-    </section>
-    </main>
-    <footer>
-    </footer>
 
+    <footer>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
