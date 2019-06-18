@@ -15,11 +15,50 @@ a {
 
 /* HEADER */
 header {
-    background: black;
-    color: white;
+    background: teal;
+    color: hotpink;
     padding: 1em 2em;
 }
 
 header a {
-    color:white;
+    color:hotpink;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+/* SITE ID */
+.site-id h1 {
+    margin: 0;
+}
+
+/* NAV */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding-top: .6em
+}
+
+nav li {
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 1em;
+}
+
+/* FOOTER */
+footer {
+    boreder-top: 1px solid #ddd;
+    max-width:  1000px;
+    margin: 0 auto;
+}
+footer nav ul {
+    justify-content: center;
 }
