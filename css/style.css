@@ -13,9 +13,13 @@ a {
 }
 
 
-/*HEADER */
+/* HEADER */
 header {
     background: black;
     color: white;
     padding: 1em 2em;
+}
+
+header a {
+    color:white;
 }
