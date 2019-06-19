@@ -5,25 +5,25 @@
 body {
     margin: 0;
     font-family: cursive;
-    color: hotpink;
+    color: lightblue;
     background: teal;
 }
 
 a {
     text-decoration: none;
-    color: teal;
+    color: lightblue;
 }
 
 
 /* HEADER */
 header {
    background: hotpink;
-   color: teal;
+   color: lightblue;
     padding: 1em 2em;
 }
 
 header a {
-    color:teal;
+    color: lightblue;
 }
 
 header {
@@ -85,7 +85,7 @@ section {
     text-align: center;
     background: hotpink;
     min-height: 50vh;
-    color: teal
+    color: lightblue;
 }
 
 
