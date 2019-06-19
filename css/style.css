@@ -5,6 +5,8 @@
 body {
     margin: 0;
     font-family: cursive;
+    color: hotpink;
+    background: teal;
 }
 
 a {
@@ -15,8 +17,8 @@ a {
 
 /* HEADER */
 header {
-    background: hotpink;
-    color: teal;
+   background: hotpink;
+   color: teal;
     padding: 1em 2em;
 }
 
