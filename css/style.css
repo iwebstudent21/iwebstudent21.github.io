@@ -4,9 +4,9 @@
 
 body {
     margin: 0;
-    /* font-family: cursive; */
+    font-family: fantasy;
     color: lightblue;
-    background: teal;
+    background: #fc6c85;
 }
 
 a {
@@ -113,4 +113,9 @@ section {
     .lists {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.page-about .hero {
+    min-height: 30vh;
+    background: #6ccdfc;
 }
