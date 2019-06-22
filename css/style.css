@@ -14,16 +14,16 @@ a {
     color: yellowgreen;
 }
 
-.page-about .body {
-    background: 
-}
+
+
 
 /* HEADER */
-.page-home .header {
+header {
    background: #FF2EA5FF;
    color: lightblue;
     padding: 1em 2em;
 }
+
 
 
 
@@ -33,8 +33,9 @@ header {
     align-items: center;
 }
 
-.page-about .header {
-    background: hotpink;
+.page-about header {
+    background: #00629E;
+    color: yellowgreens
 }
 
 .page-blog .header {
@@ -121,6 +122,8 @@ section {
     background: purple;
 }
 
+
+}
 /* LISTS */
 .lists {
     max-width: 1000px;
