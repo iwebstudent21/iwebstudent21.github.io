@@ -5,16 +5,19 @@
 body {
     margin: 0;
     font-family: fantasy;
-    color: greenyellow;
     background: #00A4CCFF;
+    color: orangered;
 }
 
 a {
     text-decoration: none;
-    color: yellowgreen;
+    color: goldenrod;
 }
 
-
+.page-about {
+    background: peachpuff;
+    color: gray;
+}
 
 
 /* HEADER */
@@ -24,6 +27,10 @@ header {
     padding: 1em 2em;
 }
 
+.page-blog {
+    background:navy;
+    color: lightgreen;
+}
 
 
 
@@ -34,7 +41,7 @@ header {
 }
 
 .page-about header {
-    background: #00629E;
+    background: Seagreen;
     color: yellowgreens
 }
 
@@ -115,7 +122,7 @@ section {
 }
 
 .page-about .hero {
-    background: #6ccdfc;
+    background: turquoise;
 }
 
 .page-blog .hero {
@@ -123,7 +130,6 @@ section {
 }
 
 
-}
 /* LISTS */
 .lists {
     max-width: 1000px;
