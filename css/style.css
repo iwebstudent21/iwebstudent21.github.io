@@ -177,4 +177,9 @@ section {
 .ui-designs img { 
     align-content: center;
 }
-
+.funny-gifs img {
+        max-height: 125px;
+    }
+.funny-gifs {
+        text-align: center;
+    }
