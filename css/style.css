@@ -172,5 +172,9 @@ section {
 }
 
 .ui-designs img {
-    max-width: 200px;
+    max-height: 125px;
 }
+.ui-designs img { 
+    align-content: center;
+}
+
