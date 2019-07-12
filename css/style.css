@@ -42,7 +42,7 @@ header {
 
 .page-about header {
     background: Seagreen;
-    color: yellowgreens
+    color: yellowgreen;
 }
 
 .page-blog .header {
@@ -156,7 +156,7 @@ section {
 
 .blog-entry {
     border: 1px solid #ddd;
-    padding: 2em;
+    padding: 2em; 
     margin: 2em 0;
 }
 
